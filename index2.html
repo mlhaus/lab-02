@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Famous Dogs</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="styles2.css">
+</head>
+<body>
+  <header>
+    <h1>Famous Dogs</h1>
+    <form id="filters">
+      <select id="type-filter">
+        <option value="default">Filter by Type</option>
+      </select>
+    </form>
+  </header>
+  <main>
+    <div class="spinner">
+      <i class="fa fa-spinner fa-spin"></i>Loading
+    </div>
+    <section id="dog-gallery">
+      <article class="dog-template dog" data-type="">
+        <h2 class="dog-name">Dog's Name</h2>
+        <img class="dog-image" src="http://place-puppy.com/400x400" alt="Dog's Name" />
+        <p>Hobbies include:</p>
+        <ul class="dog-hobbies">
+          <li>Hobby 1</li>
+          <li>Hobby 2</li>
+        </ul>
+      </article>
+    </section>
+  </main>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script type="text/javascript" src="app2.js"></script>
+</body>
+</html>

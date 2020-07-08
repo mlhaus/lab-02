@@ -4,7 +4,7 @@ const ajaxSettings = {
   method: 'get',
   dataType: 'json'
 };
-$.ajax('data/page-1.json', ajaxSettings)
+$.ajax('../data/page-1.json', ajaxSettings)
   .then(function (data) {
     const arrayOfCreatures = data;
     arrayOfCreatures.forEach(creatureObj => {
@@ -14,7 +14,6 @@ $.ajax('data/page-1.json', ajaxSettings)
     $('#photo-gallery').find('.photo-template').remove();
     $('.spinner').fadeOut(500);
     $('#photo-gallery').fadeIn(500);
-    
   });
 
 function Creature(creature) {

@@ -6,7 +6,7 @@ const ajaxSettings = {
   dataType: 'json'
 };
 
-$.ajax('../data/dogs.json', ajaxSettings)
+$.ajax('./data/dogs.json', ajaxSettings)
   .then((data) => {
     // console.log(data);
     const arrayOfDogs = data;

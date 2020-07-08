@@ -4,7 +4,7 @@ const ajaxSettings = {
   method: 'get',
   dataType: 'json'
 };
-$.ajax('../data/page-1.json', ajaxSettings)
+$.ajax('./data/page-1.json', ajaxSettings)
   .then(function (data) {
     const arrayOfCreatures = data;
     arrayOfCreatures.forEach(creatureObj => {

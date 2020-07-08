@@ -4,10 +4,10 @@ In lab today, we used JSON files to create a photo gallery. We implemented it us
 ## Feature #1: Display images
 As a user, I want to view the images on the page so that I can browse the photo collection.
 
-- Estimate of time needed to complete: _____
-- Start time: _____
-- Finish time: _____
-- Actual time needed to complete: _____
+- Estimate of time needed to complete: 30 minutes
+- Start time: 1:20pm
+- Finish time: 2:00pm
+- Actual time needed to complete: 40 minutes
 
 ## Feature #2: Filter images
 As a user, I want to be able to filter the images so that I can view only images that match a keyword.

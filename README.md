@@ -1,6 +1,8 @@
 # Overview
 In lab today, we used JSON files to create a photo gallery. We implemented it using AJAX, implemented a filtering feature, and styled it using floats.
 
+Here is the [demo that I created](index2.html) to demonstrate these features.
+
 ## Feature #1: Display images
 As a user, I want to view the images on the page so that I can browse the photo collection.
 

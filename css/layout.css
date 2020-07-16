@@ -1,0 +1,9 @@
+#photo-gallery:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+ 
+.person {
+  float: left;
+}

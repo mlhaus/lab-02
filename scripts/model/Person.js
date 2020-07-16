@@ -1,0 +1,32 @@
+'use strict';
+
+function Person(person) {
+  this.name = {
+    first: person.name.first,
+    last: person.name.last
+  };
+  this.image_url = person.picture.large;
+  this.location = {
+    city: person.location.city,
+    state: person.location.state
+  };
+  this.fullName = () => `${this.name.first} ${this.name.last}`;
+  this.nationality = person.nat;
+  if(Person.allNationalities.indexOf(this.nationality) < 0) {
+    Person.allNationalities.push(this.nationality);
+  }
+}
+
+Person.all = [];
+Person.allNationalities = [];
+
+Person.prototype.render = function () {
+  let $renderedPerson = $('.person-template').clone();
+  $renderedPerson.removeClass('person-template');
+  $renderedPerson.find('.fullName').text(this.fullName);
+  $renderedPerson.find('.profileImage').attr('src', this.image_url);
+  $renderedPerson.find('.profileImage').attr('alt', this.fullName);
+  $renderedPerson.find('.location').text(`${this.location.city}, ${this.location.state}`);
+  $renderedPerson.attr('data-nationality', this.nationality);
+  return $renderedPerson;
+};

@@ -11,10 +11,19 @@
   <header>
     <h1>JSON, Ajax, and jQuery demo</h1>
     <div id="filter-sort-search">
-      <section>Filter by Nationality: 
+      <section>Nationality: 
         <select id="nationality-filter">
           <option value="">All</option>
         </select>
+      </section>
+
+      <section>Page: 
+        <select id="page-filter">
+        </select> of <span id="pageCount"></span>
+      </section>
+
+      <section>Viewing: 
+        <span id="firstShowing"></span> to <span id="lastShowing"></span>
       </section>
     </div>
   </header>
@@ -32,9 +41,9 @@
   </main>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script type="text/javascript" src="scripts/model/Person.js"></script>
-  <script type="text/javascript" src="scripts/view/filter.js"></script>
+  <script type="text/javascript" src="scripts/view/filters.js"></script>
   <script type="text/javascript" src="scripts/view/people.js"></script>
-  <script type="text/javascript" src="scripts/controller/filter.js"></script>
+  <script type="text/javascript" src="scripts/controller/filters.js"></script>
   <script type="text/javascript" src="scripts/app.js"></script>
 </body>
 </html>

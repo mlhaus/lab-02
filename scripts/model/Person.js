@@ -19,6 +19,8 @@ function Person(person) {
 
 Person.all = [];
 Person.allNationalities = [];
+Person.peoplePerPage = 12;
+Person.numPages;
 
 Person.prototype.render = function () {
   let $renderedPerson = $('.person-template').clone();

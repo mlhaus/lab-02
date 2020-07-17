@@ -1,0 +1,466 @@
+{
+    "results": [
+        {
+            "gender": "male",
+            "name": {
+                "title": "Mr",
+                "first": "Flenn",
+                "last": "Porter"
+            },
+            "location": {
+                "street": {
+                    "number": 1250,
+                    "name": "Bridge Road"
+                },
+                "city": "City of London",
+                "state": "East Sussex",
+                "country": "United Kingdom",
+                "postcode": "E4D 4ZT",
+                "coordinates": {
+                    "latitude": "-78.6067",
+                    "longitude": "40.0062"
+                },
+                "timezone": {
+                    "offset": "-4:00",
+                    "description": "Atlantic Time (Canada), Caracas, La Paz"
+                }
+            },
+            "email": "flenn.porter@example.com",
+            "dob": {
+                "date": "1964-05-30T12:52:56.447Z",
+                "age": 56
+            },
+            "phone": "01948 932161",
+            "picture": {
+                "large": "https://randomuser.me/api/portraits/men/29.jpg",
+                "medium": "https://randomuser.me/api/portraits/med/men/29.jpg",
+                "thumbnail": "https://randomuser.me/api/portraits/thumb/men/29.jpg"
+            },
+            "nat": "GB"
+        },
+        {
+            "gender": "male",
+            "name": {
+                "title": "Mr",
+                "first": "Cameron",
+                "last": "Jones"
+            },
+            "location": {
+                "street": {
+                    "number": 3768,
+                    "name": "Coronation Avenue"
+                },
+                "city": "Invercargill",
+                "state": "Gisborne",
+                "country": "New Zealand",
+                "postcode": 76777,
+                "coordinates": {
+                    "latitude": "-78.4290",
+                    "longitude": "-122.1851"
+                },
+                "timezone": {
+                    "offset": "+2:00",
+                    "description": "Kaliningrad, South Africa"
+                }
+            },
+            "email": "cameron.jones@example.com",
+            "dob": {
+                "date": "1959-03-04T10:12:44.714Z",
+                "age": 61
+            },
+            "phone": "(578)-404-1613",
+            "picture": {
+                "large": "https://randomuser.me/api/portraits/men/59.jpg",
+                "medium": "https://randomuser.me/api/portraits/med/men/59.jpg",
+                "thumbnail": "https://randomuser.me/api/portraits/thumb/men/59.jpg"
+            },
+            "nat": "NZ"
+        },
+        {
+            "gender": "female",
+            "name": {
+                "title": "Mrs",
+                "first": "Caitlin",
+                "last": "Hawkins"
+            },
+            "location": {
+                "street": {
+                    "number": 5013,
+                    "name": "Kingsway"
+                },
+                "city": "Kingston upon Hull",
+                "state": "Herefordshire",
+                "country": "United Kingdom",
+                "postcode": "O6 3SB",
+                "coordinates": {
+                    "latitude": "35.7561",
+                    "longitude": "64.0043"
+                },
+                "timezone": {
+                    "offset": "+2:00",
+                    "description": "Kaliningrad, South Africa"
+                }
+            },
+            "email": "caitlin.hawkins@example.com",
+            "dob": {
+                "date": "1952-11-07T01:00:47.181Z",
+                "age": 68
+            },
+            "phone": "017684 64892",
+            "picture": {
+                "large": "https://randomuser.me/api/portraits/women/47.jpg",
+                "medium": "https://randomuser.me/api/portraits/med/women/47.jpg",
+                "thumbnail": "https://randomuser.me/api/portraits/thumb/women/47.jpg"
+            },
+            "nat": "GB"
+        },
+        {
+            "gender": "female",
+            "name": {
+                "title": "Ms",
+                "first": "Katie",
+                "last": "Jones"
+            },
+            "location": {
+                "street": {
+                    "number": 7949,
+                    "name": "Dame Street"
+                },
+                "city": "Ballina",
+                "state": "Sligo",
+                "country": "Ireland",
+                "postcode": 64861,
+                "coordinates": {
+                    "latitude": "-69.3654",
+                    "longitude": "-96.9618"
+                },
+                "timezone": {
+                    "offset": "+3:30",
+                    "description": "Tehran"
+                }
+            },
+            "email": "katie.jones@example.com",
+            "dob": {
+                "date": "1976-07-12T13:27:38.350Z",
+                "age": 44
+            },
+            "phone": "031-463-9107",
+            "picture": {
+                "large": "https://randomuser.me/api/portraits/women/83.jpg",
+                "medium": "https://randomuser.me/api/portraits/med/women/83.jpg",
+                "thumbnail": "https://randomuser.me/api/portraits/thumb/women/83.jpg"
+            },
+            "nat": "IE"
+        },
+        {
+            "gender": "female",
+            "name": {
+                "title": "Ms",
+                "first": "Lilly",
+                "last": "Hughes"
+            },
+            "location": {
+                "street": {
+                    "number": 9691,
+                    "name": "Russell Street"
+                },
+                "city": "Masterton",
+                "state": "Auckland",
+                "country": "New Zealand",
+                "postcode": 56439,
+                "coordinates": {
+                    "latitude": "-48.8309",
+                    "longitude": "-37.2781"
+                },
+                "timezone": {
+                    "offset": "-9:00",
+                    "description": "Alaska"
+                }
+            },
+            "email": "lilly.hughes@example.com",
+            "dob": {
+                "date": "1975-02-26T08:05:12.925Z",
+                "age": 45
+            },
+            "phone": "(894)-893-0548",
+            "picture": {
+                "large": "https://randomuser.me/api/portraits/women/40.jpg",
+                "medium": "https://randomuser.me/api/portraits/med/women/40.jpg",
+                "thumbnail": "https://randomuser.me/api/portraits/thumb/women/40.jpg"
+            },
+            "nat": "NZ"
+        },
+        {
+            "gender": "female",
+            "name": {
+                "title": "Miss",
+                "first": "Kaitlin",
+                "last": "Robinson"
+            },
+            "location": {
+                "street": {
+                    "number": 4593,
+                    "name": "High Street"
+                },
+                "city": "Ely",
+                "state": "Tayside",
+                "country": "United Kingdom",
+                "postcode": "P19 9XS",
+                "coordinates": {
+                    "latitude": "-54.0768",
+                    "longitude": "-168.4317"
+                },
+                "timezone": {
+                    "offset": "+3:00",
+                    "description": "Baghdad, Riyadh, Moscow, St. Petersburg"
+                }
+            },
+            "email": "kaitlin.robinson@example.com",
+            "dob": {
+                "date": "1945-12-22T05:36:35.195Z",
+                "age": 75
+            },
+            "phone": "015396 61724",
+            "picture": {
+                "large": "https://randomuser.me/api/portraits/women/78.jpg",
+                "medium": "https://randomuser.me/api/portraits/med/women/78.jpg",
+                "thumbnail": "https://randomuser.me/api/portraits/thumb/women/78.jpg"
+            },
+            "nat": "GB"
+        },
+        {
+            "gender": "female",
+            "name": {
+                "title": "Mrs",
+                "first": "Alberte",
+                "last": "Christensen"
+            },
+            "location": {
+                "street": {
+                    "number": 5239,
+                    "name": "Tingvejen"
+                },
+                "city": "Aaborg Øst",
+                "state": "Danmark",
+                "country": "Denmark",
+                "postcode": 44638,
+                "coordinates": {
+                    "latitude": "-60.9408",
+                    "longitude": "77.7758"
+                },
+                "timezone": {
+                    "offset": "+10:00",
+                    "description": "Eastern Australia, Guam, Vladivostok"
+                }
+            },
+            "email": "alberte.christensen@example.com",
+            "dob": {
+                "date": "1973-01-02T00:38:41.931Z",
+                "age": 47
+            },
+            "phone": "38881462",
+            "picture": {
+                "large": "https://randomuser.me/api/portraits/women/37.jpg",
+                "medium": "https://randomuser.me/api/portraits/med/women/37.jpg",
+                "thumbnail": "https://randomuser.me/api/portraits/thumb/women/37.jpg"
+            },
+            "nat": "DK"
+        },
+        {
+            "gender": "female",
+            "name": {
+                "title": "Miss",
+                "first": "Dária",
+                "last": "Gomes"
+            },
+            "location": {
+                "street": {
+                    "number": 4762,
+                    "name": "Rua Santo Antônio "
+                },
+                "city": "Itapetininga",
+                "state": "Rio Grande do Sul",
+                "country": "Brazil",
+                "postcode": 57886,
+                "coordinates": {
+                    "latitude": "19.9887",
+                    "longitude": "38.0507"
+                },
+                "timezone": {
+                    "offset": "-5:00",
+                    "description": "Eastern Time (US & Canada), Bogota, Lima"
+                }
+            },
+            "email": "daria.gomes@example.com",
+            "dob": {
+                "date": "1972-04-26T05:00:54.994Z",
+                "age": 48
+            },
+            "phone": "(92) 0324-8290",
+            "picture": {
+                "large": "https://randomuser.me/api/portraits/women/88.jpg",
+                "medium": "https://randomuser.me/api/portraits/med/women/88.jpg",
+                "thumbnail": "https://randomuser.me/api/portraits/thumb/women/88.jpg"
+            },
+            "nat": "BR"
+        },
+        {
+            "gender": "male",
+            "name": {
+                "title": "Mr",
+                "first": "Emanuel",
+                "last": "Rummel"
+            },
+            "location": {
+                "street": {
+                    "number": 7894,
+                    "name": "Bachstraße"
+                },
+                "city": "Rheda-Wiedenbrück",
+                "state": "Hamburg",
+                "country": "Germany",
+                "postcode": 14462,
+                "coordinates": {
+                    "latitude": "-69.2619",
+                    "longitude": "31.5929"
+                },
+                "timezone": {
+                    "offset": "+3:00",
+                    "description": "Baghdad, Riyadh, Moscow, St. Petersburg"
+                }
+            },
+            "email": "emanuel.rummel@example.com",
+            "dob": {
+                "date": "1984-08-24T03:03:20.952Z",
+                "age": 36
+            },
+            "phone": "0965-0398948",
+            "picture": {
+                "large": "https://randomuser.me/api/portraits/men/45.jpg",
+                "medium": "https://randomuser.me/api/portraits/med/men/45.jpg",
+                "thumbnail": "https://randomuser.me/api/portraits/thumb/men/45.jpg"
+            },
+            "nat": "DE"
+        },
+        {
+            "gender": "male",
+            "name": {
+                "title": "Mr",
+                "first": "Soham",
+                "last": "Little"
+            },
+            "location": {
+                "street": {
+                    "number": 3483,
+                    "name": "O'Connell Street"
+                },
+                "city": "Portlaoise",
+                "state": "Cork City",
+                "country": "Ireland",
+                "postcode": 38390,
+                "coordinates": {
+                    "latitude": "28.8670",
+                    "longitude": "156.2348"
+                },
+                "timezone": {
+                    "offset": "+4:30",
+                    "description": "Kabul"
+                }
+            },
+            "email": "soham.little@example.com",
+            "dob": {
+                "date": "1976-08-08T17:46:21.438Z",
+                "age": 44
+            },
+            "phone": "021-926-0595",
+            "picture": {
+                "large": "https://randomuser.me/api/portraits/men/6.jpg",
+                "medium": "https://randomuser.me/api/portraits/med/men/6.jpg",
+                "thumbnail": "https://randomuser.me/api/portraits/thumb/men/6.jpg"
+            },
+            "nat": "IE"
+        },
+        {
+            "gender": "female",
+            "name": {
+                "title": "Miss",
+                "first": "Cristina",
+                "last": "Velasco"
+            },
+            "location": {
+                "street": {
+                    "number": 2609,
+                    "name": "Calle de Arturo Soria"
+                },
+                "city": "Ciudad Real",
+                "state": "Cantabria",
+                "country": "Spain",
+                "postcode": 92734,
+                "coordinates": {
+                    "latitude": "-72.8763",
+                    "longitude": "84.1551"
+                },
+                "timezone": {
+                    "offset": "+8:00",
+                    "description": "Beijing, Perth, Singapore, Hong Kong"
+                }
+            },
+            "email": "cristina.velasco@example.com",
+            "dob": {
+                "date": "1981-04-16T22:48:33.947Z",
+                "age": 39
+            },
+            "phone": "947-868-053",
+            "picture": {
+                "large": "https://randomuser.me/api/portraits/women/13.jpg",
+                "medium": "https://randomuser.me/api/portraits/med/women/13.jpg",
+                "thumbnail": "https://randomuser.me/api/portraits/thumb/women/13.jpg"
+            },
+            "nat": "ES"
+        },
+        {
+            "gender": "male",
+            "name": {
+                "title": "Mr",
+                "first": "Larry",
+                "last": "Hopkins"
+            },
+            "location": {
+                "street": {
+                    "number": 2896,
+                    "name": "Highfield Road"
+                },
+                "city": "Chichester",
+                "state": "Fife",
+                "country": "United Kingdom",
+                "postcode": "V69 2QS",
+                "coordinates": {
+                    "latitude": "51.6196",
+                    "longitude": "-110.4806"
+                },
+                "timezone": {
+                    "offset": "+7:00",
+                    "description": "Bangkok, Hanoi, Jakarta"
+                }
+            },
+            "email": "larry.hopkins@example.com",
+            "dob": {
+                "date": "1956-06-04T22:51:53.820Z",
+                "age": 64
+            },
+            "phone": "016977 9816",
+            "picture": {
+                "large": "https://randomuser.me/api/portraits/men/46.jpg",
+                "medium": "https://randomuser.me/api/portraits/med/men/46.jpg",
+                "thumbnail": "https://randomuser.me/api/portraits/thumb/men/46.jpg"
+            },
+            "nat": "GB"
+        }
+    ],
+    "info": {
+        "seed": "6afca2aec8597a0c",
+        "results": 40,
+        "page": 1,
+        "version": "1.3"
+    }
+}

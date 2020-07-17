@@ -4,6 +4,8 @@
  
 img {
   max-width: 100%;
+  margin: 0 auto;
+  display: block;
 }
  
 h1 {
@@ -47,6 +49,7 @@ main {
 .person-template {
   display: none;
 }
+
 .spinner {
   position: absolute;
   top: 0.5em;

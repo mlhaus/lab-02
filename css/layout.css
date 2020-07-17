@@ -1,4 +1,4 @@
-#photo-gallery:after {
+/* #photo-gallery:after {
   content: "";
   display: table;
   clear: both;
@@ -6,4 +6,17 @@
  
 .person {
   float: left;
+} */
+
+#photo-gallery {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#filter-sort-search {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }

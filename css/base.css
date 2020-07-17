@@ -46,9 +46,9 @@ main {
   margin: 0.25em;
 }
  
-.person-template {
+/* .person-template {
   display: none;
-}
+} */
 
 .spinner {
   position: absolute;

@@ -15,6 +15,7 @@ function Person(person) {
   if(Person.allNationalities.indexOf(this.nationality) < 0) {
     Person.allNationalities.push(this.nationality);
   }
+  this.age = person.dob.age;
 }
 
 Person.all = [];
@@ -30,5 +31,9 @@ Person.prototype.render = function () {
   $renderedPerson.find('.profileImage').attr('alt', this.fullName);
   $renderedPerson.find('.location').text(`${this.location.city}, ${this.location.state}`);
   $renderedPerson.attr('data-nationality', this.nationality);
+  $renderedPerson.attr('data-lastname', this.name.last);
+  $renderedPerson.attr('data-first', this.name.first);
+  $renderedPerson.attr('data-age', this.age);
+  $renderedPerson.find('.age').text(this.age);
   return $renderedPerson;
 };

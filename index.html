@@ -17,6 +17,15 @@
         </select>
       </section>
 
+      <section>Sort by: 
+        <select id="sort-by">
+          <option value="alpha">Name A-Z</option>
+          <option value="alpha-rev">Name Z-A</option>
+          <option value="age">Age 0-&infin;</option>
+          <option value="age-rev">Age &infin;-0</option>
+        </select>
+      </section>
+
       <section>Page: 
         <select id="page-filter">
         </select> of <span id="pageCount"></span>
@@ -32,10 +41,11 @@
       <i class="fa fa-spinner fa-spin"></i>Loading
     </div>
     <section id="photo-gallery">
-      <article class="person-template person" data-nationality="">
+      <article class="person-template person" data-nationality="" data-lastname="" data-firstname="" data-age="">
         <h3 class="fullName">Name</h3>
         <img class="profileImage" src="http://placekitten.com/800/800" alt="Name" />
         <p class="location">City, State</p>
+        <p class="age">Age</p>
       </article>
     </section>
   </main>
@@ -44,6 +54,7 @@
   <script type="text/javascript" src="scripts/view/filters.js"></script>
   <script type="text/javascript" src="scripts/view/people.js"></script>
   <script type="text/javascript" src="scripts/controller/filters.js"></script>
+  <script type="text/javascript" src="scripts/controller/sort.js"></script>
   <script type="text/javascript" src="scripts/app.js"></script>
 </body>
 </html>

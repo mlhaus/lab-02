@@ -28,6 +28,7 @@ $(() => {
       renderPeople();
       renderFilters(); 
       handleFilters();
+      handleSort();
       $('.spinner').fadeOut();
       $('#photo-gallery').fadeIn();
     });
